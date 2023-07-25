@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "64bf2275c4f32d1bff294222"
+  },
+  "title": "Rp3 JUTAAN! laptop bekas yang terjual ribuan unit di toko online.",
+  "urlThumbnail": "https://i.ytimg.com/an_webp/ryeoRO7RZag/mqdefault_6s.webp?du=3000&sqp=CKCi_KUG&rs=AOn4CLC67efbSsj4Oqgy-_9lo3TrStMDVA",
+  "urlVideo": "https://www.youtube.com/watch?v=ryeoRO7RZag",
+  "desc": "Saya suka second.",
+  "views": 0,
+  "productId": {
+    "$oid": "64bf32b3576521b8ec082022"
+  },
+  "commentId": {
+    "$oid": "64bfb6d46564463bb640085a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bf2275c4f32d1bff294223"
+  },
+  "title": "Rekomendasi HP TERBAIK buat Lebaran 2023!",
+  "urlThumbnail": "https://i.ytimg.com/vi/a3KriqTgaQE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBgP0Cx8JHE_EfEdcTQriSPgJ60A",
+  "urlVideo": "https://www.youtube.com/watch?v=a3KriqTgaQE",
+  "desc": "Mending ini...",
+  "views": 0,
+  "productId": {
+    "$oid": "64bf32b3576521b8ec082023"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bf2275c4f32d1bff294224"
+  },
+  "title": "Alasan Sony pantas masang harga SULTAN buat TV ini - BRAVIA 65X95L",
+  "urlThumbnail": "https://i.ytimg.com/vi/fzQ1H1FeCv0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtoPNvk0LnoN8mMrE77y1vZ0v1xw",
+  "urlVideo": "https://www.youtube.com/watch?v=fzQ1H1FeCv0",
+  "desc": "Yang duitnya melimpah, silakan...",
+  "views": 0,
+  "productId": {
+    "$oid": "64bf32b3576521b8ec082024"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bf2275c4f32d1bff294225"
+  },
+  "title": "Tablet 2 jutaan yang bener - Huawei MatePad SE Indonesia!",
+  "urlThumbnail": "https://i.ytimg.com/an_webp/n1DrnkxUBFg/mqdefault_6s.webp?du=3000&sqp=CMC3_KUG&rs=AOn4CLAMJAECluuDVEW6XOD2KWh8kT3GBA",
+  "urlVideo": "https://www.youtube.com/watch?v=n1DrnkxUBFg",
+  "desc": "1 rumah 1 tablet.",
+  "views": 0,
+  "productId": {
+    "$oid": "64bf32b3576521b8ec082025"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bf2275c4f32d1bff294226"
+  },
+  "title": "Hidden Gem ❤️ - Nyobain barang aneh yang dijual online Episode 29!",
+  "urlThumbnail": "https://i.ytimg.com/an_webp/5MvHSSp5VGE/mqdefault_6s.webp?du=3000&sqp=CJST_KUG&rs=AOn4CLBR-qmMzOz7XnzOyjRaWoqEpIEZ6g",
+  "urlVideo": "https://www.youtube.com/watch?v=5MvHSSp5VGE",
+  "desc": "Hmmmmm....",
+  "views": 0,
+  "productId": {
+    "$oid": "64bf32b3576521b8ec082026"
+  }
+}]
