@@ -7,4 +7,8 @@ npm install
 connect mongodb
 import document to mongodb from database folder
 npm start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> main
