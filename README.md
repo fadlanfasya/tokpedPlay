@@ -57,8 +57,9 @@ Returns videos by id in the system and also return product list and comment list
 * **Headers**  
   Content-Type: application/json
 * **Success Response:**  
-* **Code:** 200
-* **Code:** 500
+  * **Code:** 200
+* **Error Response:** 
+  * **Code:** 500
 
 **POST/ Submit Comment**
 -----
@@ -77,5 +78,6 @@ Returns videos by id in the system.
 * **Headers**  
   Content-Type: application/json
 * **Success Response:**  
-* **Code:** 200
-* **Code:** 400
+  * **Code:** 200
+* **Error Response:** 
+  * **Code:** 400
