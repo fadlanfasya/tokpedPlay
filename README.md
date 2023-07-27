@@ -24,12 +24,6 @@ npm start
 # API Structure
 
 # List API
-* Video Thumbnail List
-* Video Detail List
-* Product List
-* Comment List
-* Submit Comment
-
 **GET/ Video Thumbnail List**
 -----
 Returns all videos in the system.
@@ -62,11 +56,34 @@ Returns videos by id in the system and also return product list and comment list
 * **Error Response:** 
   * **Code:** 500
 
+**POST/ Submit Video**
+-----
+Post new video.
+* **URL Path**
+  localhost:3000/api/videos/
+* **URL Params**  
+  *Required:*
+* **Data Params**  
+```
+  {
+    title: String
+    urlThumbnail: String
+    urlVideo: String
+    desc: String
+  }
+```
+* **Headers**  
+  Content-Type: application/json
+* **Success Response:**  
+  * **Code:** 200
+* **Error Response:** 
+  * **Code:** 400
+
 **POST/ Submit Comment**
 -----
-Returns videos by id in the system.
+Post comment by video id.
 * **URL Path**
-  localhost:3000/api/videos/:id/comment
+  localhost:3000/api/videos/:id/addcomment
 * **URL Params**  
   *Required:* `id=[ObjectId]`
 * **Data Params**  
@@ -74,6 +91,29 @@ Returns videos by id in the system.
   {
     username: string,
     comment: string
+  }
+```
+* **Headers**  
+  Content-Type: application/json
+* **Success Response:**  
+  * **Code:** 200
+* **Error Response:** 
+  * **Code:** 400
+
+**POST/ Submit Product**
+-----
+Post product by video id.
+* **URL Path**
+  localhost:3000/api/videos/:id/addproduct
+* **URL Params**  
+  *Required:* `id=[ObjectId]`
+* **Data Params**  
+```
+  {
+    productTitle: string,
+    productImg: string,
+    urlProduct: string,
+    price: Number
   }
 ```
 * **Headers**  
