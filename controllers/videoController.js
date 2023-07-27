@@ -25,6 +25,9 @@ const getId = async (req, res)=>{
         const id = req.params.id;
         const videos = await Video.findById(id).populate('productId').populate('commentId');
 
+        videos.views++;
+        await videos.save();
+
         res.status(200).json(videos);
     } catch (error) {
         res.status(500).json({message: error.message})

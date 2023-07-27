@@ -7,11 +7,11 @@ const videoSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: Product
     }],
-    commentId : {
+    commentId : [{
         type: mongoose.Schema.Types.ObjectId,
         ref: Comment,
         default: undefined,
-    },
+    }],
     title: {
         required: true,
         type: String
