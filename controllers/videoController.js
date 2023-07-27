@@ -1,5 +1,16 @@
 const Video = require('../models/Video.js');
 
+const postData = async (req, res)=>{
+    const { title, urlThumbnail, urlVideo, desc, views } = req.body;
+    try {
+        const videos = new Video({ title, urlThumbnail, urlVideo, desc, views })
+        const videoToSave = await videos.save();
+        res.status(200).json(videoToSave)
+    } catch (error) {
+        res.status(400).json({message: error.message})
+    }
+}
+
 const getAll = async (req, res)=>{
     try {
         const videos = await Video.find();
@@ -20,4 +31,4 @@ const getId = async (req, res)=>{
     }
 }
 
-module.exports = { getAll, getId }
+module.exports = { postData, getAll, getId }
