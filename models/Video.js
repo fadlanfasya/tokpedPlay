@@ -3,10 +3,10 @@ const Product = require('./Product.js');
 const Comment = require('./Comment.js');
 
 const videoSchema = new mongoose.Schema({
-    productId: {
+    productId: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: Product
-    },
+    }],
     commentId : {
         type: mongoose.Schema.Types.ObjectId,
         ref: Comment,
@@ -30,7 +30,8 @@ const videoSchema = new mongoose.Schema({
     },
     views: {
         required: true,
-        type: Number
+        type: Number,
+        default: 0
     }
 })
 
