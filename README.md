@@ -15,7 +15,7 @@ create this collection {
     - products
     - comments
 }
-import document to mongodb from database folder
+import document to mongodb from database folder / insert manual by method post
 npm start
 ```
 
