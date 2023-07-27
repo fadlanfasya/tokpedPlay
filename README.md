@@ -20,7 +20,7 @@ npm start
 ```
 
 # Database Structure
-![Alt text]('public/tokpedPlay_schema.png')
+![Alt text](public/tokpedPlay_schema.png)
 # API Structure
 
 # List API
