@@ -4,7 +4,10 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const mongoStr = process.env.DATABASE_URL
 
-mongoose.connect(mongoStr);
+mongoose.connect(mongoStr, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 const database = mongoose.connection;
 
 database.on('error', (error) => {
