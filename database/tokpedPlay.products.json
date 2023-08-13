@@ -1,91 +1,89 @@
 [{
-  "_id": {
-    "$oid": "64c22902a994e4e26b5a30e8"
-  },
   "videoId": {
-    "$oid": "64bf2275c4f32d1bff294222"
-  },
-  "productTitle": "Laptop Dell Latitude 7290 i5 Generasi 8 SECOND BERKUALITAS & BERGARANS - E 7290 I5 GEN 8, 8GB - 128GB",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/11/020c6e43-67eb-4ed6-8967-dd2d84a7cb5b.png",
-  "urlProduct": "https://www.tokopedia.com/arfadigital-indonesia/laptop-dell-latitude-7290-i5-generasi-8-second-berkualitas-bergarans-e-7290-i5-gen-8-8gb-128gb?extParam=ivf%3Dfalse&src=topads",
-  "price": 3650000,
-  "__v": 0
+  "$oid": "64bf2275c4f32d1bff294222" },
+  "productCollections": [
+    {
+      "_id": {
+        "$oid": "64c22902a994e4e26b5a30e8"
+      },
+      "productTitle": "Laptop Dell Latitude 7290 i5 Generasi 8 SECOND BERKUALITAS & BERGARANS - E 7290 I5 GEN 8, 8GB - 128GB",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/11/020c6e43-67eb-4ed6-8967-dd2d84a7cb5b.png",
+      "urlProduct": "https://www.tokopedia.com/arfadigital-indonesia/laptop-dell-latitude-7290-i5-generasi-8-second-berkualitas-bergarans-e-7290-i5-gen-8-8gb-128gb?extParam=ivf%3Dfalse&src=topads",
+      "price": 3650000,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64c22a9ca994e4e26b5a30ef"
+      },
+      "productTitle": "Laptop Lenovo CORE i7 RAM 16GB/SSD 512GB/256GB/2TB/1TB/500GB, Bekas - 4GB, 320GB",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/26/3989b408-3075-429c-bd5c-e1c73e2c3efa.jpg",
+      "urlProduct": "https://www.tokopedia.com/twentycell/laptop-lenovo-core-i7-ram-16gb-ssd-512gb-256gb-2tb-1tb-500gb-bekas-4gb-320gb",
+      "price": 2650000,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64c22af7a994e4e26b5a30f3"
+      },
+      "productTitle": "Laptop Lenovo Core i5 RAM 8GB 500GB 14 inci - Laptop Bekas Spek Tinggi - 4GB, 320GB",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/26/fbb47c4b-9cad-40d8-a2b5-64ad49da3219.jpg",
+      "urlProduct": "https://www.tokopedia.com/twentycell/laptop-lenovo-core-i5-ram-8gb-500gb-14-inci-laptop-bekas-spek-tinggi-4gb-320gb",
+      "price": 2050000,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64c22b30a994e4e26b5a30f8"
+      },
+      "productTitle": "Laptop Gaming Dell i5 NVIDIA VRAM 2GB Graphics Game / RAM 16GB / SSD - 8GB, 320GB",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/17/10e5f8bc-d383-47ad-b8ed-d69679187597.jpg",
+      "urlProduct": "https://www.tokopedia.com/twentycell/laptop-gaming-dell-i5-nvidia-vram-2gb-graphics-game-ram-16gb-ssd-8gb-320gb-f17ef?extParam=whid%3D14184",
+      "price": 3400000,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64c22b51a994e4e26b5a30fc"
+      },
+      "productTitle": "Laptop Gen 8 Lenovo Core i7 i5 Gen 8 / RAM 16GB/NVME/ T480 Bukan Gen 7 - i5 / 8GB, SSD 256GB",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/5/178d1ec6-acf1-49e4-a7a0-026fc104981f.jpg",
+      "urlProduct": "https://www.tokopedia.com/twentycell/laptop-gen-8-lenovo-core-i7-i5-gen-8-ram-16gb-nvme-t480-bukan-gen-7-i5-8gb-ssd-256gb-51c28?extParam=whid%3D14184",
+      "price": 4450000,
+      "__v": 0
+    }
+  ]
 },
 {
-  "_id": {
-    "$oid": "64c22a9ca994e4e26b5a30ef"
-  },
-  "videoId": {
-    "$oid": "64bf2275c4f32d1bff294222"
-  },
-  "productTitle": "Laptop Lenovo CORE i7 RAM 16GB/SSD 512GB/256GB/2TB/1TB/500GB, Bekas - 4GB, 320GB",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/26/3989b408-3075-429c-bd5c-e1c73e2c3efa.jpg",
-  "urlProduct": "https://www.tokopedia.com/twentycell/laptop-lenovo-core-i7-ram-16gb-ssd-512gb-256gb-2tb-1tb-500gb-bekas-4gb-320gb",
-  "price": 2650000,
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "64c22af7a994e4e26b5a30f3"
-  },
-  "videoId": {
-    "$oid": "64bf2275c4f32d1bff294222"
-  },
-  "productTitle": "Laptop Lenovo Core i5 RAM 8GB 500GB 14 inci - Laptop Bekas Spek Tinggi - 4GB, 320GB",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/26/fbb47c4b-9cad-40d8-a2b5-64ad49da3219.jpg",
-  "urlProduct": "https://www.tokopedia.com/twentycell/laptop-lenovo-core-i5-ram-8gb-500gb-14-inci-laptop-bekas-spek-tinggi-4gb-320gb",
-  "price": 2050000,
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "64c22b30a994e4e26b5a30f8"
-  },
-  "videoId": {
-    "$oid": "64bf2275c4f32d1bff294222"
-  },
-  "productTitle": "Laptop Gaming Dell i5 NVIDIA VRAM 2GB Graphics Game / RAM 16GB / SSD - 8GB, 320GB",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/17/10e5f8bc-d383-47ad-b8ed-d69679187597.jpg",
-  "urlProduct": "https://www.tokopedia.com/twentycell/laptop-gaming-dell-i5-nvidia-vram-2gb-graphics-game-ram-16gb-ssd-8gb-320gb-f17ef?extParam=whid%3D14184",
-  "price": 3400000,
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "64c22b51a994e4e26b5a30fc"
-  },
-  "videoId": {
-    "$oid": "64bf2275c4f32d1bff294222"
-  },
-  "productTitle": "Laptop Gen 8 Lenovo Core i7 i5 Gen 8 / RAM 16GB/NVME/ T480 Bukan Gen 7 - i5 / 8GB, SSD 256GB",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/5/178d1ec6-acf1-49e4-a7a0-026fc104981f.jpg",
-  "urlProduct": "https://www.tokopedia.com/twentycell/laptop-gen-8-lenovo-core-i7-i5-gen-8-ram-16gb-nvme-t480-bukan-gen-7-i5-8gb-ssd-256gb-51c28?extParam=whid%3D14184",
-  "price": 4450000,
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "64c22b8ba994e4e26b5a3100"
-  },
   "videoId": {
     "$oid": "64bf2275c4f32d1bff294223"
-  },
-  "productTitle": "Xiaomi Redmi 12C 3/32GB + 4/64GB + 4/128GB Garansi Resmi - 3/32 Blue",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/3/8/dd7e9f52-0dc0-4eb5-ba41-b76d8fb0f48a.jpg",
-  "urlProduct": "https://www.tokopedia.com/duniagadgetku/xiaomi-redmi-12c-3-32gb-4-64gb-4-128gb-garansi-resmi-3-32-blue?aff_unique_id=VjkKB7m-b37F_OFx1KGwJddlXnKHH3WIK01H5s4jDwjKZJYsBEGswt317GKAAeXcW7NfPQ%3D%3D&channel=others&_branch_match_id=1205758479012122009&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWjyxND3fLNvI0rkwCAFaUJtUiAAAA",
-  "price": 1275000,
-  "__v": 0
+  }, "productCollections": [
+    {
+      "_id": {
+        "$oid": "64c22b8ba994e4e26b5a3100"
+      },
+      "productTitle": "Xiaomi Redmi 12C 3/32GB + 4/64GB + 4/128GB Garansi Resmi - 3/32 Blue",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/3/8/dd7e9f52-0dc0-4eb5-ba41-b76d8fb0f48a.jpg",
+      "urlProduct": "https://www.tokopedia.com/duniagadgetku/xiaomi-redmi-12c-3-32gb-4-64gb-4-128gb-garansi-resmi-3-32-blue?aff_unique_id=VjkKB7m-b37F_OFx1KGwJddlXnKHH3WIK01H5s4jDwjKZJYsBEGswt317GKAAeXcW7NfPQ%3D%3D&channel=others&_branch_match_id=1205758479012122009&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWjyxND3fLNvI0rkwCAFaUJtUiAAAA",
+      "price": 1275000,
+      "__v": 0
+    }
+  ]
 },
 {
-  "_id": {
-    "$oid": "64c22be8a994e4e26b5a3107"
-  },
   "videoId": {
     "$oid": "64bf2275c4f32d1bff294224"
   },
-  "productTitle": "SONY Bravia X80L 4K Ultra HD HDR Google TV 55 Inch KD-55X80L",
-  "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/19/2c8c3bd8-4e74-4198-b068-8bea6f8ab74e.jpg",
-  "urlProduct": "https://www.tokopedia.com/sonyelectronics/sony-bravia-x80l-4k-ultra-hd-hdr-google-tv-55-inch-kd-55x80l?extParam=ivf%3Dtrue&src=topads",
-  "price": 9999000,
-  "__v": 0
+  "productCollections": [
+    {
+      "_id": {
+        "$oid": "64c22be8a994e4e26b5a3107"
+      },
+      "productTitle": "SONY Bravia X80L 4K Ultra HD HDR Google TV 55 Inch KD-55X80L",
+      "productImg": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/19/2c8c3bd8-4e74-4198-b068-8bea6f8ab74e.jpg",
+      "urlProduct": "https://www.tokopedia.com/sonyelectronics/sony-bravia-x80l-4k-ultra-hd-hdr-google-tv-55-inch-kd-55x80l?extParam=ivf%3Dtrue&src=topads",
+      "price": 9999000,
+      "__v": 0
+    }
+  ]
 }]
