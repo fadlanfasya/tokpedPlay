@@ -10,6 +10,7 @@ router.get('/videos/:id', videoController.getId);
 
 router.post('/videos/:id/addproduct', productController.postData);
 router.get('/products', productController.getAll);
+router.get('/products/video/:id', productController.getbyVideoId);
 
 router.post('/videos/:id/addcomment', commentController.postData) 
 

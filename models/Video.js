@@ -1,17 +1,6 @@
 const mongoose = require('mongoose');
-const Product = require('./Product.js');
-const Comment = require('./Comment.js');
 
-const videoSchema = new mongoose.Schema({
-    productId: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: Product
-    }],
-    commentId : [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: Comment,
-        default: undefined,
-    }],
+const videoSchema = new mongoose.Schema([{
     title: {
         required: true,
         type: String
@@ -33,6 +22,6 @@ const videoSchema = new mongoose.Schema({
         type: Number,
         default: 0
     }
-})
+}])
 
 module.exports = mongoose.model('Video', videoSchema)

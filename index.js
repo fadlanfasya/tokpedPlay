@@ -20,6 +20,9 @@ database.once('connected', () => {
 
 const app = express();
 
+let cors = require('cors');
+app.use(cors());
+
 const routes = require('./routes/routes.js');
 app.use(express.json());
 

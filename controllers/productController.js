@@ -31,4 +31,16 @@ const getAll = async (req, res)=>{
     }
 }
 
-module.exports = { getAll, postData }
+const getbyVideoId = async (req, res)=>{
+    try {
+        const id = req.params.id;
+        const findVideoId = await Product.find({
+            videoId: id,
+        });
+        res.status(200).json(findVideoId);
+    } catch (error) {
+        res.status(500).json({message: error.message})
+    }
+}
+
+module.exports = { getAll, postData, getbyVideoId }

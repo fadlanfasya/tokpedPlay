@@ -1,4 +1,5 @@
 const Video = require('../models/Video.js');
+const Product = require('../models/Product.js');
 
 const postData = async (req, res)=>{
     const { title, urlThumbnail, urlVideo, desc, views } = req.body;
@@ -23,7 +24,7 @@ const getAll = async (req, res)=>{
 const getId = async (req, res)=>{
     try {
         const id = req.params.id;
-        const videos = await Video.findById(id).populate('productId').populate('commentId');
+        const videos = await Video.findById(id);
 
         videos.views++;
         await videos.save();
