@@ -6,6 +6,8 @@ const app = express();
 
 app.use(express.json());
 
+app.use(require("cors")());
+
 app.use(bodyParser.json());
 app.use(
     bodyParser.urlencoded({
