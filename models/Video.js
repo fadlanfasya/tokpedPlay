@@ -5,11 +5,11 @@ const Comment = require('./Comment.js');
 const videoSchema = new mongoose.Schema({
     productId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: Product
+        ref: 'Product'
     },
     commentId : {
         type: mongoose.Schema.Types.ObjectId,
-        ref: Comment,
+        ref: 'Comment',
         default: undefined,
     },
     title: {
