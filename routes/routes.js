@@ -14,7 +14,8 @@ router.post('/videos/:id/addproduct', productController.postData);
 router.get('/products', productController.getAll);
 router.get('/products/video/:id', productController.getbyVideoId);
 
-router.post('/videos/:id/comment', commentController.postData);
+router.post('/comments/:id', commentController.postData);
+router.get('/comments/:id', commentController.getData);
 
 router.post("/login", catchErrors(userController.login));
 router.post("/register", catchErrors(userController.register));

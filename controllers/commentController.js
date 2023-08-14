@@ -22,4 +22,16 @@ const postData = async (req, res)=> {
     }
 }
 
-module.exports = { postData }
+const getData = async (req, res) => {
+    try {
+        const id = req.params.id;
+        const comments = await Comment.find({
+            videoId: id,
+        });
+        res.status(200).json(comments);
+    } catch (error) {
+        res.status(500).json({message: error.message})
+    }
+}
+
+module.exports = { postData, getData }

@@ -34,10 +34,10 @@ const getAll = async (req, res)=>{
 const getbyVideoId = async (req, res)=>{
     try {
         const id = req.params.id;
-        const findVideoId = await Product.find({
+        const productCollection = await Product.find({
             videoId: id,
         });
-        res.status(200).json(findVideoId);
+        res.status(200).json(productCollection);
     } catch (error) {
         res.status(500).json({message: error.message})
     }

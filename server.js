@@ -55,14 +55,15 @@ io.on("connection", (socket) => {
       console.log("Disconnected: " + socket.userId);
     });
   
-    socket.on("chatBox", async ({ comment }) => {
+    socket.on("chatboxComment", async ({ videoId, comment }) => {
       if (comment.trim().length > 0) {
         const user = await User.findOne({ _id: socket.userId });
         const newComment = new Comment({
+          video: videoId,
           user: socket.userId,
           comment,
         });
-        io.emit("newComment", {
+        io.to(videoId).emit("newComment", {
           comment,
           name: user.name,
           userId: socket.userId,

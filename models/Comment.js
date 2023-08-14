@@ -2,13 +2,14 @@ const mongoose = require('mongoose');
 const Video = require('./Video.js');
 
 const commentSchema = new mongoose.Schema({
-    videoId: {
+    video: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Video'
     },
-    username: {
-        required: true,
-        type: String
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: "is required!",
+        ref: "User",
     },
     comment: {
         require: true,
