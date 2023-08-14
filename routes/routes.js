@@ -6,10 +6,13 @@ const commentController = require('../controllers/commentController.js');
 const { catchErrors } = require("../handlers/errorHandler");
 const userController = require('../controllers/userController.js');
 
+router.post('/videos', videoController.postData) 
 router.get('/videos', videoController.getAll);
 router.get('/videos/:id', videoController.getId);
 
+router.post('/videos/:id/addproduct', productController.postData);
 router.get('/products', productController.getAll);
+router.get('/products/video/:id', productController.getbyVideoId);
 
 router.post('/videos/:id/comment', commentController.postData);
 

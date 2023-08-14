@@ -8,10 +8,9 @@ const postData = async (req, res)=> {
         const video = await Video.findById(id);
         const comments = new Comment({ videoId: id, username, comment})
         const commentToSave = await comments.save();
-        
-        //video.commentId.push(commentToSave._id);
+    
         const pushCommentId = {
-            $set: {
+            $push: {
                 commentId: commentToSave._id
             }
         }
