@@ -6,7 +6,7 @@
   "urlThumbnail": "https://i.ytimg.com/vi/ryeoRO7RZag/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAztMbVNTqeJsk4IahhLVOes903g",
   "urlVideo": "https://www.youtube.com/watch?v=ryeoRO7RZag",
   "desc": "Saya suka second.",
-  "views": 0,
+  "views": 6,
   "commentId": {
     "$oid": "64bfb6d46564463bb640085a"
   },
@@ -36,7 +36,7 @@
   "urlThumbnail": "https://i.ytimg.com/vi/a3KriqTgaQE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBgP0Cx8JHE_EfEdcTQriSPgJ60A",
   "urlVideo": "https://www.youtube.com/watch?v=a3KriqTgaQE",
   "desc": "Mending ini...",
-  "views": 0,
+  "views": 2,
   "productId": [
     {
       "$oid": "64c22b8ba994e4e26b5a3100"
