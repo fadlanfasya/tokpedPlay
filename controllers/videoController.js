@@ -24,7 +24,7 @@ const getAll = async (req, res)=>{
 const getId = async (req, res)=>{
     try {
         const id = req.params.id;
-        const videos = await Video.findById(id);
+        const videos = await Video.findById(id).populate('productId').populate('commentId');
 
         videos.views++;
         await videos.save();

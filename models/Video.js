@@ -1,6 +1,16 @@
 const mongoose = require('mongoose');
+const Product = require('./Product');
+const Comment = require('./Comment');
 
 const videoSchema = new mongoose.Schema({
+    productId: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Product'
+    }],
+    commentId: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Comment'
+    }],
     title: {
         required: true,
         type: String
