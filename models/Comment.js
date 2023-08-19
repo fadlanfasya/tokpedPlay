@@ -6,10 +6,9 @@ const commentSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Video'
     },
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        required: "is required!",
-        ref: "User",
+    username: {
+        require: true,
+        type: String
     },
     comment: {
         require: true,

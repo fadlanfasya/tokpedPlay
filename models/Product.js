@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Video = require('./Video');
 
 const productSchema = new mongoose.Schema({
     videoId: {
@@ -6,20 +7,20 @@ const productSchema = new mongoose.Schema({
         ref: 'Video'
     },
     productTitle: {
-        required: true,
-        type: String
+            required: true,
+            type: String
     },
     productImg: {
-        required: true,
-        type: String
+            required: true,
+            type: String
     },
     urlProduct: {
-        required: true,
-        type: String
+            required: true,
+            type: String
     },
     price: {
-        required: true,
-        type: Number
+            required: true,
+            type: Number
     }
 });
 

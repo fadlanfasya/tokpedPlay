@@ -3,8 +3,6 @@ const router = express.Router();
 const videoController = require('../controllers/videoController.js');
 const productController = require('../controllers/productController.js');
 const commentController = require('../controllers/commentController.js');
-const { catchErrors } = require("../handlers/errorHandler");
-const userController = require('../controllers/userController.js');
 
 router.post('/videos', videoController.postData) 
 router.get('/videos', videoController.getAll);
@@ -16,10 +14,6 @@ router.get('/products/video/:id', productController.getbyVideoId);
 
 router.post('/comments/:id', commentController.postData);
 router.get('/comments/:id', commentController.getData);
-
-router.post("/login", catchErrors(userController.login));
-router.post("/register", catchErrors(userController.register));
-
 
 
 module.exports = router;
